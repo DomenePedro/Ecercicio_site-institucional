@@ -1,0 +1,36 @@
+.footer p {
+    color: white;
+}
+
+.banner .formlogin{
+    background-color: white;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .formlogin div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .formlogin span{
+    color: #E6005A;
+}
+
+.banner .formlogin input{
+    border: 2px solid #E6005A;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .formlogin button{
+    background-color: #E6005A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

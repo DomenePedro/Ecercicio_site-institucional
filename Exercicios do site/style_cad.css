@@ -1,0 +1,30 @@
+.footer p {
+    color: white;
+}
+
+.banner .formcadastro{
+    background-color: white;
+    width: 45;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner .formcadastro span{
+    color: #E6005A;
+}
+
+.banner .formcadastro input{
+    border: 2px solid #E6005A;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .formcadastro button{
+    background-color: #E6005A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

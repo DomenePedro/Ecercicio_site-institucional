@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: black;
+    border: aquamarine 3px solid;
+}
+
+.container {
+    /* background-color: red; */
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: aquamarine;
+}
+
+.header h1 a {
+    color: aquamarine;
+}
+
+.navbar li {
+    font-weight: lighter;
+    color: goldenrod;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.navbar .active {
+    font-weight: bolder;
+}
+
+.banner {
+    height: 500px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    margin-right: 250px;
+    width: 15%;
+    color: white;
+    font-size: 40px;
+}
+
+.message span {
+    font-weight: bolder;
+}
+
+.proposito {
+    height: 500px;
+    background-color: #E5E5E5;
+}
+
+.proposito .container .mvv div img {
+    height: 150px;
+    width: 150px;
+}
+
+.proposito .container .mvv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.proposito .container h2{
+    color: #E6005A;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.proposito .container .mvv div h2 {
+    color: #E6005A;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+.footer{
+    background-color: aquamarine;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+}
